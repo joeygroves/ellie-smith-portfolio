@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Ellie Smith Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive influencer portfolio website - using React, Tailwind CSS, Framer-Motion and React Hook Form.
 
 ## Available Scripts
 
