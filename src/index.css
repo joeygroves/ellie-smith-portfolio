@@ -4,3 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #A875BA;
+  @apply text-white;
+}
