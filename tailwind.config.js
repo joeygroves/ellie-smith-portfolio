@@ -9,11 +9,9 @@ module.exports = {
         lavender: "#AE9FD0",
         green: "#519E8A",
         yellow: "#FFCA3A",
+        purple: "#A875BA",
         black: "#14080E"
       },
-      backgroundImage: (theme) => ({
-        purple: "#A875BA"
-      }),
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         abel: ["Abel", "sans-serif"]
