@@ -61,6 +61,47 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                       <img alt="menu-icon" src="../assets/menu-icon.svg" />
                     </button>
                 )}
+
+                {/* MOBILE MENU POPUP */}
+                {!isAboveSmallScreens && isMenuToggled && (
+                    <div className="fixed right-0 bottom-0 h-full bg-lavender w-[300px]">
+                        {/* CLOSE MENU ICON */}
+                        <div className="flex justify-end p-12">
+                            <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                                <img alt="menu-close-icon" src="../assets/menu-close-icon.svg" />
+                            </button>
+                        </div>
+
+                        {/* MOBILE MENU ITEMS */}
+                        <div className="flex flex-col gap-10 ml-[33%] text-2xl text-white">
+                            <Link
+                                page="Home"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="About"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="Affiliates"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="Testimonials"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="Contact"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                        </div>
+                    </div>
+                )}
             </div>
         </nav>
     );
