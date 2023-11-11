@@ -1,4 +1,5 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 import useMediaQuery from '../hooks/useMediaQuery';
 import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -14,10 +15,10 @@ const Landing = ({setSelectedPage}) => {
                     <div
                         className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20"
                     >
-                        <YouTubeEmbed />
+                        <YoutubeEmbed />
                     </div>
                 ) : (
-                    <YouTubeEmbed />
+                    <YoutubeEmbed />
                 )}
             </div>
 
