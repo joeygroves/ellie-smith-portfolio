@@ -1,3 +1,4 @@
+// social media icon component
 
 const SocialMediaIcons = () => {
     return (
