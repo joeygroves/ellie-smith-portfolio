@@ -15,7 +15,7 @@ const Landing = ({setSelectedPage}) => {
                     <div
                         className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20"
                     >
-                        <YoutubeEmbed />
+                        <YoutubeEmbed embedId="b4RJstyQBt0"/>
                     </div>
                 ) : (
                     <YoutubeEmbed />
