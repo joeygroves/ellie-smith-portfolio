@@ -19,6 +19,24 @@ const SocialMediaIcons = () => {
             >
                 <img alt="instagram-link" src="../assets/instagram.svg" />
             </a>
+
+            <a
+                className="hover:opacity-50 transition duration-500"
+                href="https://www.x.com"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img alt="x-link" src="../assets/x.svg" />
+            </a>
+
+            <a
+                className="hover:opacity-50 transition duration-500"
+                href="https://www.tiktok.com"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img alt="tiktok-link" src="../assets/tiktok.svg" />
+            </a>
         </div>
     );
 };
