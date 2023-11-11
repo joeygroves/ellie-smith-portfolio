@@ -8,7 +8,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="youtube-link" src="../assets/youtube.svg" />
+                <img alt="youtube-link" src="../assets/youtube.svg" className="scale-50"/>
             </a>
 
             <a
@@ -17,7 +17,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="instagram-link" src="../assets/instagram.svg" />
+                <img alt="instagram-link" src="../assets/instagram.svg" className="scale-50" />
             </a>
 
             <a
@@ -26,7 +26,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="x-link" src="../assets/x.svg" />
+                <img alt="x-link" src="../assets/x.svg" className="scale-50" />
             </a>
 
             <a
@@ -35,7 +35,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="tiktok-link" src="../assets/tiktok.svg" />
+                <img alt="tiktok-link" src="../assets/tiktok.svg" className="scale-50" />
             </a>
         </div>
     );
