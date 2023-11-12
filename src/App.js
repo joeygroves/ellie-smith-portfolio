@@ -26,6 +26,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
+
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
           <DotGroup 
@@ -33,11 +34,13 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
+ 
+          <Landing
+            setSelectedPage={setSelectedPage}
+          />
 
-        <Landing
-          setSelectedPage={setSelectedPage}
-        />
       </div>
+
     </div>
   );
 }
