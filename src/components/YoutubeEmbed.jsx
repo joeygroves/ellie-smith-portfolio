@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const YoutubeEmbed = ({ embedId }) => (
+const YoutubeEmbed = ({ embedId, width, height }) => (
         <div className="">
-            <iframe
-                className=""
-                width="853"
-                height="480"
+            <iframe 
+                width={`${width}`}
+                height={`${height}`}
                 src={`https://www.youtube.com/embed/${embedId}`}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 allowFullScreen
-                title="Embedded youtube"
-            />
+            >
+            </iframe>
         </div>
     );
 

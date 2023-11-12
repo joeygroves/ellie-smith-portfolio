@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Landing = ({setSelectedPage}) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1024px)");
 
     return (
         <section id="home" className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10">
@@ -15,10 +15,11 @@ const Landing = ({setSelectedPage}) => {
                     <div
                         className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20"
                     >
-                        <YoutubeEmbed embedId="b4RJstyQBt0"/>
+                        <YoutubeEmbed embedId="b4RJstyQBt0" width="720" height="405"/>
                     </div>
                 ) : (
-                    <YoutubeEmbed />
+                    /* For when it is bellow medium screens */
+                    <YoutubeEmbed embedId="b4RJstyQBt0" width="360" height="220"/>
                 )}
             </div>
 
