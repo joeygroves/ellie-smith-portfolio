@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import useMediaQuery from "./hooks/useMediaQuery";
 import LineGradient from "./components/LineGradient";
 import Navbar from "./scenes/Navbar";
@@ -46,7 +47,7 @@ function App() {
 
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div>
-          
+
         </motion.div>
       </div>
 
