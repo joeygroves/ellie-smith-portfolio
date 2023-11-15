@@ -55,7 +55,9 @@ function App() {
           amount="all"
           onViewportEnter={() => setSelectedPage("home")}
         >
-          <About />
+          <About 
+            setSelectedPage={setSelectedPage}
+          />
         </motion.div>
       </div>
 
