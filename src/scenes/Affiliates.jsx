@@ -106,7 +106,9 @@ const Affiliates = () => {
                     />
                     <Project 
                         title="Curology" 
-                        subtitle="Hello"
+                        subtitle="Founded by Dr. David Lortscher in 2014, Curology has led the way in making personalized skincare accessible 
+                        in all 50 states. Now, Dr. David walks us through his journey—from practicing dermatology in New Mexico to helping 
+                        change the lives of millions of people."
                     />
                 </motion.div>
             </div>
