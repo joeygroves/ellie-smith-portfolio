@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Landing = ({setSelectedPage}) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1024px)");
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
         <section 

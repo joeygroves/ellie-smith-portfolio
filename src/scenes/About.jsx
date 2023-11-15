@@ -3,7 +3,7 @@ import useMediaQuery from '../hooks/useMediaQuery';
 import { motion } from 'framer-motion';
 
 const About = () => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1024px)");
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
         <section

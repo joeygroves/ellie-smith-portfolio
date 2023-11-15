@@ -24,7 +24,7 @@ const Project = ({ title, subtitle }) => {
                 <p className="text-2xl font-abel">{title}</p>
                 <p className="mt-7 font-abel">{subtitle}</p>
             </div>
-            <img src={`../assets/${projectTitle}.png`} alt={projectTitle} className="max-w-[400px] max-h-[400px]"/>
+            <img src={`../assets/${projectTitle}.png`} alt={projectTitle} className="md:max-w-[400px] md:max-h-[400px]"/>
         </motion.div>
     )
 }
@@ -60,10 +60,10 @@ const Affiliates = () => {
                 </p>
             </motion.div>
 
-            {/* Brand Affiliates Grid */}
+            {/* Brand Affiliates Logos Grid */}
             <div className="flex justify-center">
                 <motion.div
-                    className="sm:grid sm:grid-cols-3"
+                    className="md:grid md:grid-cols-3"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -71,7 +71,7 @@ const Affiliates = () => {
                 >
                     {/* Row 1 */}
                     <div className="flex justify-center text-center items-center p-10 bg-yellow
-                            max-w-[400px] max-h-[400px] font-abel text-3xl text-black">
+                            md:max-w-[400px] md:max-h-[400px] font-abel text-3xl text-black">
                         Past & Current Affiliates
                     </div>
                     <Project 
@@ -94,15 +94,13 @@ const Affiliates = () => {
                         subtitle="Set out to disrupt the traditional eyewear industry, GlassesUSA.com is the largest 
                         online eyewear retailer offering a variety of both high-quality designer and house brands with 
                         a wide-range of styles and lens types including: single vision lenses, multifocal lenses, Rx sunglasses, 
-                        sports glasses, kids glasses, contact lenses, digital protection, anti-reflective coatings and more."
+                        sports glasses, kids glasses, contact lenses and more."
                     />
                     <Project 
                         title="Ana Luisa" 
                         subtitle="Since its founding in 2018, Ana Luisa has worked to elevate the everyday of people around the
                          world with Earth-friendly jewelry that lasts. Ana Luisa continues to challenge the jewelry industry by 
-                         bridging the gap between quality, accessibility, and sustainability. Ana Luisa crafts their jewelry to 
-                         stand the test of time, making sure you know how and where your pieces were made, and guarantee your purchase 
-                         stays within your budget."
+                         bridging the gap between quality, accessibility, and sustainability."
                     />
                     <Project 
                         title="Curology" 

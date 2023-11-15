@@ -12,7 +12,7 @@ import Testimonials from "./scenes/Testimonials";
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1024px)");
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   useEffect(() => {
     const handleScroll = () => {
