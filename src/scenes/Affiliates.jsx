@@ -82,7 +82,10 @@ const Affiliates = () => {
                     />
                     <Project 
                         title="Tokyo Treat" 
-                        subtitle="Hello"
+                        subtitle="TokyoTreat is a subscription-based service that delivers you a box 
+                        full of unique and fun Japanese candies and snacks directly to your doorstep 
+                        every month. Each box has a hand-picked collection of Japanese snacks.
+                        Get Your Monthly Dose of Tasty Japanese Candy, rare Japanese soda & more With TokyoTreat!"
                     />
 
                     {/* Row 2 */}
