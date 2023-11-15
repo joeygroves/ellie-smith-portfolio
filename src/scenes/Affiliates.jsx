@@ -91,11 +91,18 @@ const Affiliates = () => {
                     {/* Row 2 */}
                     <Project 
                         title="Glasses USA" 
-                        subtitle="Hello"
+                        subtitle="Set out to disrupt the traditional eyewear industry, GlassesUSA.com is the largest 
+                        online eyewear retailer offering a variety of both high-quality designer and house brands with 
+                        a wide-range of styles and lens types including: single vision lenses, multifocal lenses, Rx sunglasses, 
+                        sports glasses, kids glasses, contact lenses, digital protection, anti-reflective coatings and more."
                     />
                     <Project 
                         title="Ana Luisa" 
-                        subtitle="Hello"
+                        subtitle="Since its founding in 2018, Ana Luisa has worked to elevate the everyday of people around the
+                         world with Earth-friendly jewelry that lasts. Ana Luisa continues to challenge the jewelry industry by 
+                         bridging the gap between quality, accessibility, and sustainability. Ana Luisa crafts their jewelry to 
+                         stand the test of time, making sure you know how and where your pieces were made, and guarantee your purchase 
+                         stays within your budget."
                     />
                     <Project 
                         title="Curology" 
