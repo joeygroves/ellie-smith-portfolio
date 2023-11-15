@@ -15,16 +15,16 @@ const projectVariant = {
 
 const Project = ({ title, subtitle }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-        bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-black`
+        bg-white z-30 flex flex-col justify-center items-center text-center p-16 text-black`
     const projectTitle = title.split(" ").join("-").toLowerCase();
 
     return (
         <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
                 <p className="text-2xl font-abel">{title}</p>
-                <p className="mt-7">{subtitle}</p>
+                <p className="mt-7 font-abel">{subtitle}</p>
             </div>
-            <img src={`../assets/${projectTitle}.png`} alt={projectTitle}/>
+            <img src={`../assets/${projectTitle}.png`} alt={projectTitle} className="max-w-[400px] max-h-[400px]"/>
         </motion.div>
     )
 }
@@ -71,10 +71,10 @@ const Affiliates = () => {
                 >
                     {/* Row 1 */}
                     <div className="flex justify-center text-center items-center p-10 bg-yellow
-                            max-w-[400px] max-h-[400px] font-abel text-2xl text-black">
+                            max-w-[400px] max-h-[400px] font-abel text-3xl text-black">
                         Past & Current Affiliates
                     </div>
-                    <Project title="Paypal Honey" subtitle="Hello"/>
+                    <Project title="PayPal Honey" subtitle="Hello"/>
                     <Project title="Tokyo Treat" subtitle="Hello"/>
 
                     {/* Row 2 */}
