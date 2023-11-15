@@ -10,7 +10,7 @@ const About = () => {
             id="about"
             className="pt-10 pb-24"
         >
-            {/* Header and Image Section */}
+            {/* Header */}
             <div className="md:flex md:justify-between md:gap-16 mt-32">
                 <motion.div
                     className="md:w-1/3"
@@ -28,6 +28,29 @@ const About = () => {
                     </p>
                     <LineGradient width="w-1/2" />
                 </motion.div>
+
+                <div className="mt-16 md:mt-0">
+                    {isAboveMediumScreens ? (
+                        <div
+                        className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+                                    before:w-full before:h-full"
+                    >
+                        <img
+                        alt="about"
+                        className="z-10"
+                        src="assets/ellie-about-photos.png"
+                        />
+                    </div>
+                    ) : (
+                        <div className="flex justify-center items-center">
+                            <img 
+                                alt="skills"
+                                className="z-10"
+                                src="assets/ellie-about-photos.png"
+                            />
+                        </div>
+                    )}
+                </div>
             </div>
 
         </section>
