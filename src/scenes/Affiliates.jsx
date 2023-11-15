@@ -74,7 +74,12 @@ const Affiliates = () => {
                             max-w-[400px] max-h-[400px] font-abel text-3xl text-black">
                         Past & Current Affiliates
                     </div>
-                    <Project title="PayPal Honey" subtitle="Hello"/>
+                    <Project 
+                        title="PayPal Honey" 
+                        subtitle="PayPal Honey is a free browser extension that searches for some 
+                        of the best deals on the internet. One-click and Honey automatically searches 
+                        for and tests available coupon codes at checkout on 30,000+ popular sites."
+                    />
                     <Project title="Tokyo Treat" subtitle="Hello"/>
 
                     {/* Row 2 */}
