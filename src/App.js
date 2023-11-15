@@ -5,6 +5,7 @@ import LineGradient from "./components/LineGradient";
 import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
+import About from "./scenes/About";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -17,7 +18,6 @@ function App() {
       if (window.scrollY !== 0) setIsTopOfPage(false);
     }
     window.addEventListener("scroll", handleScroll);
-    
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -36,7 +36,11 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
-          <motion.div>
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("home")}
+          >
             <Landing
               setSelectedPage={setSelectedPage}
             />
@@ -46,8 +50,12 @@ function App() {
       <LineGradient />
 
       <div className="w-5/6 mx-auto md:h-full">
-        <motion.div>
-
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("home")}
+        >
+          <About />
         </motion.div>
       </div>
 
