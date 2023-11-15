@@ -7,6 +7,7 @@ import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import About from "./scenes/About";
 import Affiliates from "./scenes/Affiliates";
+import Testimonials from "./scenes/Testimonials";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -69,6 +70,19 @@ function App() {
           onViewportEnter={() => setSelectedPage("affiliates")}
         >
           <Affiliates 
+            setSelectedPage={setSelectedPage}
+          />
+        </motion.div>
+      </div>
+
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("testimonials")}
+        >
+          <Testimonials 
             setSelectedPage={setSelectedPage}
           />
         </motion.div>
