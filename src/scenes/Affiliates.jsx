@@ -5,7 +5,17 @@ const Affiliates = () => {
     return (
         <section id="affiliates" className="pt-48 pb-48">
             {/* Headings */}
-            <motion.div>
+            <motion.div
+                className="md:w-2/4 mx-auto text-center"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+                variants={{
+                hidden: { opacity: 0, y: -50 },
+                visible: { opacity: 1, y: 0 },
+                }}
+            >
                 <div>
                     <p className="font-montserrat font-black text-4xl">
                         Brand <span className="text-yellow">Affiliates</span>
