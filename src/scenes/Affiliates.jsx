@@ -1,6 +1,13 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
+const container = {
+    hidden: {},
+    visible: {
+        transition: { staggerChildren: 0.2 }
+    }
+}
+
 const Affiliates = () => {
     return (
         <section id="affiliates" className="pt-48 pb-48">
@@ -31,6 +38,25 @@ const Affiliates = () => {
                     purus nec eget eleifend ut elit.
                 </p>
             </motion.div>
+
+            {/* Brand Affiliates Grid */}
+            <div className="flex justify-center">
+                <motion.div
+                    className="sm:grid sm:grid-cols-3"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    variants={container}
+                >
+                    {/* Row 1 */}
+                    <div className="flex justify-center text-center items-center p-10 bg-yellow
+                            max-w-[400px] max-h-[400px] font-abel text-2xl text-black">
+                        Past & Current Affiliates
+                    </div>
+                    
+                    {/* Row 2 */}
+                </motion.div>
+            </div>
 
         </section>
     );
