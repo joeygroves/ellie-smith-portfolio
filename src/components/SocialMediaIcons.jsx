@@ -1,6 +1,8 @@
 // social media icon component
 
 const SocialMediaIcons = () => {
+    const imageSize = `scale-50`
+
     return (
         <div className="flex justify-center md:justify-start my-10 gap-7">
             <a
@@ -9,7 +11,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="youtube-link" src="../assets/youtube.svg" className="scale-50"/>
+                <img alt="youtube-link" src="../assets/youtube.svg" className={imageSize}/>
             </a>
 
             <a
@@ -18,7 +20,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="instagram-link" src="../assets/instagram.svg" className="scale-50" />
+                <img alt="instagram-link" src="../assets/instagram.svg" className={imageSize} />
             </a>
 
             <a
@@ -27,7 +29,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="x-link" src="../assets/x.svg" className="scale-50" />
+                <img alt="x-link" src="../assets/x.svg" className={imageSize} />
             </a>
 
             <a
@@ -36,7 +38,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="tiktok-link" src="../assets/tiktok.svg" className="scale-50" />
+                <img alt="tiktok-link" src="../assets/tiktok.svg" className={imageSize} />
             </a>
         </div>
     );
