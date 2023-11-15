@@ -80,12 +80,24 @@ const Affiliates = () => {
                         of the best deals on the internet. One-click and Honey automatically searches 
                         for and tests available coupon codes at checkout on 30,000+ popular sites."
                     />
-                    <Project title="Tokyo Treat" subtitle="Hello"/>
+                    <Project 
+                        title="Tokyo Treat" 
+                        subtitle="Hello"
+                    />
 
                     {/* Row 2 */}
-                    <Project title="Glasses USA" subtitle="Hello"/>
-                    <Project title="Ana Luisa" subtitle="Hello"/>
-                    <Project title="Curology" subtitle="Hello"/>
+                    <Project 
+                        title="Glasses USA" 
+                        subtitle="Hello"
+                    />
+                    <Project 
+                        title="Ana Luisa" 
+                        subtitle="Hello"
+                    />
+                    <Project 
+                        title="Curology" 
+                        subtitle="Hello"
+                    />
                 </motion.div>
             </div>
 
