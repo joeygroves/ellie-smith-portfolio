@@ -1,4 +1,5 @@
 import LineGradient from "../components/LineGradient";
+import ReviewCarousel from "../components/ReviewCarousel";
 import { motion } from "framer-motion";
 
 const Testimonials = () => {
@@ -25,6 +26,13 @@ const Testimonials = () => {
                 </p>
                 <LineGradient width="mx-auto w-1/2" />
             </motion.div>
+
+            {/* Testimonial Slider */}
+            <div className="flex justify-center">
+                <motion.div>
+                    <ReviewCarousel />
+                </motion.div>
+            </div>
         </section>
     );
 };
