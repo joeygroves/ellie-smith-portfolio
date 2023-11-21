@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
     const formEmail = `example@email.com`;
-    const formSubmitCo = "https://formsubmit.co/" + formEmail;
 
     const {
         register,
@@ -78,7 +77,7 @@ const Contact = () => {
                     <form
                         target="_blank"
                         onSubmit={onSubmit}
-                        action={formSubmitCo}
+                        action={`https://formsubmit.co/${formEmail}`}
                         method="POST"
                     >
                         <input
