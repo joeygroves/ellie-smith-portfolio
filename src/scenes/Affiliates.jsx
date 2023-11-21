@@ -115,7 +115,7 @@ const Affiliates = () => {
                     />
                 </motion.div>
                 ) : (
-                    <motion.div
+                    <div
                     className="md:grid md:grid-cols-3"
                     initial="visible"
                     whileInView="visible"
@@ -161,7 +161,7 @@ const Affiliates = () => {
                         in all 50 states. Now, Dr. David walks us through his journey—from practicing dermatology in New Mexico to helping 
                         change the lives of millions of people."
                     />
-                </motion.div>
+                </div>
                 )}
                 
             </div>
