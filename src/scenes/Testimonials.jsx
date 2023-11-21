@@ -33,11 +33,11 @@ const Testimonials = () => {
             <div className="flex justify-center">
                 {isAboveMediumScreens ? (
                     <motion.div>
-                        <ReviewCarousel maxWidth={"max-w-[1024px]"} hideControls={false}/>
+                        <ReviewCarousel maxWidth={"max-w-[1100px]"} hideControls={false}/>
                     </motion.div>
                 ) : (
                     <div>
-                        <ReviewCarousel maxWidth={"max-w-[400px]"} hideControls={true}/>
+                        <ReviewCarousel maxWidth={"max-w-[360px]"} hideControls={true}/>
                     </div>
                 )}
                 
