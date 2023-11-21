@@ -9,6 +9,7 @@ import About from "./scenes/About";
 import Affiliates from "./scenes/Affiliates";
 import Testimonials from "./scenes/Testimonials";
 import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -101,7 +102,8 @@ function App() {
           />
         </motion.div>
       </div>
-
+      
+      <Footer />
     </div>
   );
 }
