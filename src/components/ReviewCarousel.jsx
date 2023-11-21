@@ -20,7 +20,7 @@ const testimonialsData = [
 const ReviewCarousel = () => {
     return (
         <div>
-            
+
         </div>
     );
 };
