@@ -15,6 +15,33 @@ const Contact = () => {
             e.preventDefault();
         }
     }
+
+    return (
+        <section id="contact" className="py-48">
+            {/* HEADINGS */}
+            <motion.div
+                    className="flex justify-end w-full"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 0.5 }}
+                    variants={{
+                    hidden: { opacity: 0, x: -50 },
+                    visible: { opacity: 1, x: 0 },
+                    }}
+            >
+                <div>
+                    <p className="font-montserrat font-black text-4xl">
+                        <span className="text-yellow">Contact Me</span> To Get Started
+                    </p>
+                    <div className="flex md:justify-end my-5">
+                        <LineGradient width="mx-auto w-1/2" />
+                    </div>
+                </div>
+            </motion.div>
+
+        </section>
+    )
 }
 
 export default Contact;
