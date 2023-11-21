@@ -2,7 +2,7 @@ import LineGradient from '../components/LineGradient';
 
 const Footer = () => {
     return (
-        <footer className="h-40 bg-green pt-10">
+        <footer className="h-44 bg-green pt-10">
             <div className="w-5/6 mx-auto">
                 <p className="font-montserrat font-black text-2xl text-white mb-3 md:justify-start md:text-left text-center">Ellie Smith</p>
                 
