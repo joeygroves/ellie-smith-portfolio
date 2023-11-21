@@ -1,7 +1,7 @@
 
 const FeedbackCard = ({ description, name, title }) => {
     return (
-        <div className="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] mx-auto my-0 feedback-card">
+        <div className="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] mx-auto my-0">
             {/* Testimonial Description */}
             <p className="font-montserrat font-semibold italic text-[18px] leading-[32.4px] text-white my-10">
                 “{description}”
