@@ -3,6 +3,11 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 
 const Contact = () => {
+    {/* Email Address (or Randomly Generated String from formsubmit.co) where form submission is sent to */}
+    const formEmail = `example@email.com`;
+
+    const formSubmitCo = "https://formsubmit.co/" + formEmail;
+
     const {
         register,
         trigger,
@@ -75,7 +80,7 @@ const Contact = () => {
                     <form
                         target="_blank"
                         onSubmit={onSubmit}
-                        action="https://formsubmit.co/"
+                        action={formSubmitCo}
                         method="POST"
                     >
                         <input
