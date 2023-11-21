@@ -9,7 +9,7 @@ const FeedbackCard = ({ description, name, title }) => {
 
             {/* Name and Title */}
             <div className="flex flex-row">
-                <div className="flex flex-col ml-4">
+                <div className="flex flex-col">
                     <h4 className="font-montserrat font-normal text-[20px] leading-[32px] text-white">
                         {name}
                     </h4>

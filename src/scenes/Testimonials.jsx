@@ -1,8 +1,10 @@
 import LineGradient from "../components/LineGradient";
 import ReviewCarousel from "../components/ReviewCarousel";
+import useMediaQuery from '../hooks/useMediaQuery';
 import { motion } from "framer-motion";
 
 const Testimonials = () => {
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
         <section 
@@ -29,9 +31,16 @@ const Testimonials = () => {
 
             {/* Testimonial Slider */}
             <div className="flex justify-center">
-                <motion.div>
-                    <ReviewCarousel />
-                </motion.div>
+                {isAboveMediumScreens ? (
+                    <motion.div>
+                        <ReviewCarousel maxWidth={"max-w-[1024px]"} hideControls={false}/>
+                    </motion.div>
+                ) : (
+                    <div>
+                        <ReviewCarousel maxWidth={"max-w-[400px]"} hideControls={true}/>
+                    </div>
+                )}
+                
             </div>
         </section>
     );
