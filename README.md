@@ -1,6 +1,28 @@
-# Ellie Smith Portfolio
+<h2 align="center">
+  Ellie Smith Portfolio Website<br/>
+  <a href="https://ellie-smith-portfolio.vercel.app/" target="_blank">ellie-smith-portfolio.vercel.app</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./mockups/ellie-mockups.png" />
+</div>
 
-A responsive influencer portfolio website - using React, Tailwind CSS, Framer-Motion and React Hook Form.
+<br/>
+
+# About The Project
+
+A responsive influencer portfolio website.
+
+
+# Built With
+
+This project was built using these technologies:
+- React.js 
+- Tailwind CSS 
+- Framer-Motion
+- React Hook Form
+- Nuka Carousel
+- VS Code
+- Vercel
 
 ## Available Scripts
 
