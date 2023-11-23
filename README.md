@@ -3,19 +3,30 @@
   <a href="https://ellie-smith-portfolio.vercel.app/" target="_blank">ellie-smith-portfolio.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./mockups/ellie-mockups.png" />
+  <img alt="mockup" src="./mockups/ellie-mockups.png" style="max-width: 800px" />
 </div>
 
 <br/>
 
-# About The Project
+## About The Project
 
-A responsive influencer portfolio website.
+<div align="center">
+  <img alt="demo" src="./mockups/ellie-smith-portfolio.gif" />
+</div>
+
+#### Duration
+- July - November 2023
+
+<br/>
+
+*A responsive influencer portfolio website for [Ellie Smith](https://www.youtube.com/@elliedee5221).*
+
+Showcasing her featured content, social media links and brands/affiliates she's currently working with and has worked with in the past.
 
 
-# Built With
+## Built With
 
-This project was built using these technologies:
+This front-end project was built using these technologies:
 - React.js 
 - Tailwind CSS 
 - Framer-Motion
@@ -23,70 +34,110 @@ This project was built using these technologies:
 - Nuka Carousel
 - VS Code
 - Vercel
+- Figma
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+**📱 Fully Responsive**
 
-### `npm start`
+**📜 Smooth Scrolling with Framer Motion**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**🎨 Styled with Tailwind CSS**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+To clone this repository, you will need `Node.js` and `git` installed globally on your computer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup
 
-### `npm run build`
+1. Installation: `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Move into the project directory: `cd ellie-smith-portfolio`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. In the project directory, run: `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will run the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view the web page in the browser.
 
-### `npm run eject`
+## Design Process
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Key Skills
+- UI/UX, Web Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For the design process, I conducted remote interviews via FaceTime and Discord over the course of 8 weeks; as my client is based in the US. After intial discussions, I produced a moodboard on Figma, with my client's and own ideas of what the typography, colour scheme and design language should be. Having a clear identity on what the end-product should turn out, and constant collaboration with my client - who is a part of the creative industry - allowed me to showcase my project management and communication skills. <br/> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As a result of having a clear and strong design foundation of this project, I was able to jump ahead and create High Fidelity wireframes on Figma. After designing the desktop wireframes, I was able to easily design the tablet and, subsequently, the mobile wireframes. This was due to having the ability to reuse colour pallets and components I had built already during the design of the desktop wireframes, for example: the social media icons components. <br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Hence, I was able to design a prototype that met my client's requirements, as well as give myself (now as a developer) a roadmap to be able to measure my progress in developing this project.
 
-## Learn More
+### Moodboard
+<img alt="moodboard" src="./moodboard/ellie_moodboard.png" style="max-width: 800px"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Wireframes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Desktop
+<div align="center">
+    <img alt="desktop-wireframes" src="./wireframes/ellie_desktop_wireframe.png" style="max-width: 800px"/>
+</div>
 
-### Code Splitting
+#### Tablet
+<div align="center">
+    <img alt="tablet-wireframes" src="./wireframes/ellie_tablet_wireframe.png" style="max-width: 400px"/>
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Phone
+<div align="center">
+    <img alt="phone-wireframes" src="./wireframes/ellie_phone_wireframe.png" style="max-width: 400px"/>
+</div>
 
-### Analyzing the Bundle Size
+### What I’ve Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This was my first time using Figma to design a website from scratch. So it was also my first time creating components and creating colour pallets within Figma. Prior to this,  I had done some prototyping and wireframing in my first year of university beforehand. But I used a different software and it was very finicky. <br/>
 
-### Making a Progressive Web App
+This was the first instance where it all clicked, and why prototyping is very useful. Figma definitely contributed to this. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Problems Encountered
 
-### Advanced Configuration
+Learning how to moodboard and wireframe in Figma came with many challenges. For one, I had problems navigating the interface. And figuring out screensizes for desktop, tablet and mobile view, was an even bigger problem than it needed to be. However, once I found the 'Frame' tool, everything was pretty much smooth sailing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Future Directions
 
-### Deployment
+Since this was my first time using Figma, I feel like I could have made different design choices - had I known how to use Figma already. Therefore, I definitely could have utilised Figma's export feature and learn how to create components there and be able to export it directly into my development environment. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Development Process
 
-### `npm run build` fails to minify
+#### Key Skills
+- Front-End Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The development process was smooth, for the most part - but took way longer than expected. I had a clear vision of what the end-product should look like- and its functionality. But I procrastinated in starting the actual coding of the website, as I felt a little overwhelemed with the amount of features I had to implement. Therefore, using a Kanban Board, via Jira Software, definitely helped with breaking massive tasks into smaller and manageable pieces,that I was able to easily implement. Moving stories from one section of the board to another, felt very satisfying and helped keep track of the development process. <br/> 
+
+### Kanban Board
+<img alt="kanban" src="./edps-board/EDPS-board-2023-11-15.png" style="max-width: 800px"/>
+
+### What I’ve Learned
+
+Using React.js made sense for this single-page website. I also put an emphasis on organisation, so my hooks were under one directory, my components where under a separate directory, etc.. In turn, I've learned and applied React programming best practices during the development of this project. <br/>
+
+This was my first time using Framer Motion and React Smooth Scrolling. In my opinion, this enhanced the user experience of interacting with the website, and as a developer it was very easy to add animations and smooth scroll. Like Tailwind CSS, I will continue to use this in future projects involving any portfolios and beyond. <br/> 
+
+### Problems Encountered
+
+This was my second experience building a project with Tailwind CSS and my (lack of) experience shows. It was tough to set up Tailwind at the start, after creating the react app. But it was definitely worth it, as I was able to debug styling bugs much easier, compared to if all styles where under one singular CSS file; and I was able to easily create responsive CSS styles. <br/>
+
+However, there two main issues that I have yet to resolve. One of them being in the 'Affiliates' page, when the website is in tablet or mobile view, the grid pop-up information's text seems to overflow out of the box it was supposed to be contained under. And I haven't figured out how to solve this. <br/>
+
+The other issue is the footer. It was supposed to have the social media icons component (as seen in the wireframes), that was used in the home/landing page, in the footer itself. Since I created this component for the intention of re-use within the project. It made sense for me to just add the component into the footer and leave it at that. However, when I did such thing, the component was too large for the footer and it would create problems in the positioning of the other elements. <br/>
+
+### Future Directions
+
+Other than fixing the styling issues, I would improve on two other aspects of this current iteration of the website:
+
+- Contact Form: I could add a back-end to this project and handle user form data myself instead of using 'React Hook Form'.
+- Testimonial Carousel: Either change the styling of the component and make it match the intended design based on the wireframes. Or I could design and implement the testimonial carousel myself, from scratch.
+
+## Credits
+
+Joe Groves
+
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joeygroves)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joewesleygroves)
