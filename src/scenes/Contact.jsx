@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-    const formEmail = `elliemsmith98@gmail.com`;
+    const formEmail = `1555ba41f707140ef331183252391dbe`;
 
     const {
         register,
@@ -102,7 +102,7 @@ const Contact = () => {
                             placeholder="EMAIL"
                             {...register("email", {
                                 required: true,
-                                pattern: /^[A-Z0-9._%+-]@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                                pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                             })}
                         />
                         {errors.email && (
