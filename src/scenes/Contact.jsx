@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-    const formEmail = `example@email.com`;
+    const formEmail = `elliemsmith98@gmail.com`;
 
     const {
         register,
