@@ -13,7 +13,7 @@ const Testimonials = () => {
         >
             {/* HEADING */}
             <motion.div
-                    className="md:w-1/3 text-center pt-28"
+                    className="md:w-1/3 text-center"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -37,7 +37,7 @@ const Testimonials = () => {
                     </motion.div>
                 ) : (
                     <div>
-                        <ReviewCarousel maxWidth={"max-w-[360px]"} hideControls={true}/>
+                        <ReviewCarousel maxWidth={"max-w-[320px]"} hideControls={true}/>
                     </div>
                 )}
                 
