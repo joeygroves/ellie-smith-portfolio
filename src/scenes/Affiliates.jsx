@@ -35,7 +35,7 @@ const Affiliates = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
-        <section id="affiliates" className="pt-48 pb-48">
+        <section id="affiliates" className="pt-36 pb-48">
             {/* Headings */}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"
