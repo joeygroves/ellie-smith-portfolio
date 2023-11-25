@@ -9,7 +9,7 @@ const Testimonials = () => {
     return (
         <section 
             id="testimonials" 
-            className="pt-28 pb-16"
+            className="pt-32 pb-12"
         >
             {/* HEADING */}
             <motion.div
