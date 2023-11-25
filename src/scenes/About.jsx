@@ -11,7 +11,7 @@ const About = () => {
             className="pt-10 pb-24"
         >
             {/* Header */}
-            <div className="md:flex md:justify-between md:gap-16 mt-32 pt-28">
+            <div className="md:flex md:justify-between md:gap-16 mt-32">
                 <motion.div
                     className="md:w-1/3"
                     initial="hidden"
