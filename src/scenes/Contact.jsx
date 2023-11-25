@@ -19,7 +19,7 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact" className="py-36">
+        <section id="contact" className="md:pt-24 pt-32 pb-36">
             {/* Heading */}
             <motion.div
                 className="flex justify-center w-full"
@@ -33,7 +33,7 @@ const Contact = () => {
                 }}
             >   
                 <div>
-                    <p className="font-montserrat font-black text-4xl text-center">
+                    <p className="font-montserrat font-black text-4xl text-center pt-2">
                         <span className="text-yellow">Contact Me</span> To Get Started
                     </p>
 
