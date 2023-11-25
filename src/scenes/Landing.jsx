@@ -10,7 +10,7 @@ const Landing = ({setSelectedPage}) => {
     return (
         <section 
             id="home" 
-            className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10"
+            className="md:flex md:justify-between md:items-center md:h-full gap-16"
         >
             {/* Embeded YouTube Video Section */}
             <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32 pt-20">
@@ -24,11 +24,11 @@ const Landing = ({setSelectedPage}) => {
                     </div>
                 ) : (
                     /* For when it is below medium screens */
-                    <div>
+                    <div className="flex justify-center pb-20">
                         <YoutubeEmbed 
                             embedId="b4RJstyQBt0" 
-                            width="360" 
-                            height="220"
+                            width="512" 
+                            height="288"
                     />
                     </div>
                     
