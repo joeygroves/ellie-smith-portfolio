@@ -19,7 +19,7 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact" className="py-48">
+        <section id="contact" className="py-28">
             {/* Heading */}
             <motion.div
                 className="flex justify-center w-full"
@@ -51,7 +51,7 @@ const Contact = () => {
             {/* FORM & IMAGE */}
             <div className="md:flex md:justify-between gap-0 mt-5 md:pt-4">
                 <motion.div
-                    className="basis-1/2 flex justify-center md:pb-5 md:pl-24"
+                    className="basis-1/2 flex justify-center md:pb-5 "
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
