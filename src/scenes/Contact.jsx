@@ -19,7 +19,7 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact" className="py-28">
+        <section id="contact" className="py-36">
             {/* Heading */}
             <motion.div
                 className="flex justify-center w-full"

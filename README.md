@@ -135,6 +135,10 @@ Other than fixing the styling issues, I would improve on two other aspects of th
 - Contact Form: I could add a back-end to this project and handle user form data myself instead of using 'React Hook Form'.
 - Testimonial Carousel: Either change the styling of the component and make it match the intended design based on the wireframes. Or I could design and implement the testimonial carousel myself, from scratch.
 
+#### Update (25th NOV 2023)
+
+- Added social icons to footer
+
 ## Credits
 
 Joe Groves

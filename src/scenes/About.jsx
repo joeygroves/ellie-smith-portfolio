@@ -8,7 +8,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="pt-10 pb-18"
+            className="pt-10 pb-20"
         >
             {/* Header */}
             <div className="md:flex md:justify-between md:gap-16 pt-32">
