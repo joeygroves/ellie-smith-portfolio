@@ -17,13 +17,13 @@ const projectVariant = {
 
 const Project = ({ title, subtitle }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-        bg-white z-30 flex flex-col justify-center items-center text-center p-16 text-black`
+        bg-white z-30 flex flex-col justify-center items-center text-center p-16 text-black overflow-auto`
     const projectTitle = title.split(" ").join("-").toLowerCase();
 
     return (
         <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
-                <p className="text-2xl font-abel">{title}</p>
+                <p className="text-2xl font-abel overflow-hidden">{title}</p>
                 <p className="mt-7 font-abel">{subtitle}</p>
             </div>
             <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
@@ -92,8 +92,7 @@ const Affiliates = () => {
                         title="Glasses USA" 
                         subtitle="Set out to disrupt the traditional eyewear industry, GlassesUSA.com is the largest 
                         online eyewear retailer offering a variety of both high-quality designer and house brands with 
-                        a wide-range of styles and lens types including: single vision lenses, multifocal lenses, Rx sunglasses, 
-                        sports glasses, kids glasses, contact lenses and more."
+                        a wide-range of styles and lens types."
                     />
                     <Project 
                         title="Ana Luisa" 
