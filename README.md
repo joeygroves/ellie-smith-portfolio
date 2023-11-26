@@ -59,6 +59,10 @@ To clone this repository, you will need `Node.js` and `git` installed globally o
 This will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view the web page in the browser.
 
+## Overview
+
+In the content space, one of the main problems influencers face when having correspondence with brands and affiliates, is having (or lack thereof) a professional space to showcase their past work experience, brands they've worked with and testimonials as a result of submitting their deliverables. Here in this project, I set out to work with a succesful influencer (amassing 100k subs on YouTube plus more followers in other spaces) in designing, implementing and deploying a single-page responsive influencer portfolio site - which they could send to brands when they reach out.
+
 ## Design Process
 
 #### Key Skills
