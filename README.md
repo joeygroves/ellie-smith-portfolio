@@ -141,7 +141,7 @@ Other than fixing the styling issues, I would improve on two other aspects of th
 
 #### Update (25th NOV 2023)
 
-- Added social icons to footer
+- Added social media icons component to footer
 
 ## Credits
 
