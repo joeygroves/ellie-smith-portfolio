@@ -67,7 +67,7 @@ const Landing = ({setSelectedPage}) => {
                     </p>
 
                     <p className="mt-10 mb-7 text-2xl text-center  font-semibold md:text-start">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing sed.
+                        Vlog and lifestyle content.
                     </p>
                 </motion.div>
 
