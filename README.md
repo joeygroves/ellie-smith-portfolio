@@ -143,6 +143,11 @@ Other than fixing the styling issues, I would improve on two other aspects of th
 
 - Added social media icons component to footer
 
+#### Update (11th DEC 2023)
+
+- Updated about section bio, and home page subheading.
+- Updated favicons
+
 ## Credits
 
 Joe Groves
