@@ -38,17 +38,9 @@ const About = () => {
                             }}
                     >
                         <div className="mt-10 mb-7">
-                            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-                            fames odio in at.<br />
-
-                            <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Blandit aliquam etiam 
-                            erat velit. Sagittis nisl rhoncus mattis rhoncus urna. 
-                            Condimentum lacinia quis vel eros donec ac odio. <br />
-                                
-                            <br />Egestas maecenas pharetra 
-                            convallis posuere morbi leo urna molestie at. Fames ac turpis egestas sed 
-                            tempus urna et pharetra pharetra. 
+                            A channel dedicated to vlogging and lifestyle content with a relaxed atmosphere.
+                            Open conversations, simple vegan cooking, and a healthy dose of humor make this channel 
+                            a welcoming resting place for viewers to enjoy.  <br />
                         </div>
                     </motion.div>
                 </motion.div>
