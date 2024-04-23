@@ -15,7 +15,7 @@
 </div>
 
 #### Duration
-- July - November 2023
+- July - December 2023
 
 <br/>
 
